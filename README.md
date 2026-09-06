@@ -1,62 +1,44 @@
-# jinyang-simplify
+# Hi, I'm Jin Yang 👋
 
-杨金的个人作品集，记录我在 AI 产品运营、内容策略、AI 工作流与建筑设计中的实践。
+AI × Content × Product
 
-这里展示的是完整项目过程：从用户问题与项目背景出发，说明我做了什么，以及最终产生了什么效果。
-
----
-
-## Featured projects
-
-- [稿定简历](public/projects/resume-notes/) — 面向求职者的可解释 AI 简历优化产品，从岗位理解、证据提取到逐项修改与导出。
-- [图片提示词反推](public/projects/image-prompt/) — 将参考图拆解为结构化、可调整的中文生图提示词。
-- [走马岭数字预运营系统](public/projects/zoumaling/) — 面向乡村文旅项目的数字化运营与体验设计实践。
-- [AI.Simplify Skills](https://github.com/18087627569yj-hue/AI.Simplify) — 将高频工作方法整理成可复用、可安装的 AI Skill。
+建筑设计背景，现专注于 AI 产品、内容运营与工作流设计。我把真实工作中反复出现的问题，整理成可复用的产品与 Skill。
 
 ---
 
-## AI workflows
+## ⭐ Featured projects
 
-- 文章生成：从主题与资料出发，建立适合长文的完整叙事。
-- 图文笔记：结合图片、用户利益点与平台语感生成可编辑文案。
-- 图片提示词反推：把参考图转换为可复现、可调整的视觉描述。
-- 可编辑 SketchUp 模型：根据图纸、尺寸或参考图建立可继续修改的 SU 模型结构。
+🤖 [AI.Simplify Skills](https://github.com/jinyang-simplify/ai-simplify-skills) — 面向设计与内容场景的 AI Skill 合集，每个 Skill 都提供清晰的使用入口、工作流程与示例。
 
-Skill 文件与安装说明统一维护在 [AI.Simplify](https://github.com/18087627569yj-hue/AI.Simplify) 仓库，本仓库只负责作品集展示。
+🖼️ [Image Prompt](https://github.com/jinyang-simplify/image-prompt) — 将网页参考图片转换为结构化、可编辑的中文生图提示词。
+
+📄 [稿定简历](https://github.com/jinyang-simplify/gaoding-resume) — 基于岗位要求与真实证据，提供可解释的简历诊断和对照修改。
+
+🏡 [走马岭数字预运营系统](https://github.com/jinyang-simplify/zoumaling-digital-operations) — 面向乡村文旅项目的游客体验、路线规划与运营管理系统。
+
+🌐 [个人作品集](https://github.com/jinyang-simplify/jinyang-portfolio) — 完整项目过程与公开网站源码，不包含个人资料。
 
 ---
 
-## Repository structure
+## 🧩 AI Skills
 
-```text
-jinyang-simplify/
-├── index.html              # 个人作品集首页
-├── src/                    # 全站样式与交互
-├── public/
-│   ├── assets/             # 公开展示素材
-│   └── projects/           # 独立项目详情页
-├── scripts/                # 本地预览与构建脚本
-├── worker/                 # 在线部署入口
-└── docs/                   # 项目说明与产品文档
-```
+### Content & Operations
 
-个人照片、证件照、简历、联系方式以及本地原始素材不包含在公开仓库中；这些文件仍保留在本地，不会因仓库整理而删除。
+- 文章生成：从主题和资料出发，建立完整叙事与可继续编辑的长文。
+- 图文笔记：结合图片、用户利益点与平台语感生成内容草稿。
 
-## Local development
+### Design Workflows
 
-```bash
-npm install
-npm run dev
-```
+- 图片提示词反推：把参考图拆解成结构化、可调整的中文生图提示词。
+- 可编辑 SketchUp 模型：依据图纸、尺寸或参考图建立可继续修改的模型结构。
+- Still-Life Naive Doodle：把静物照片转换为极简拙趣线描插画。
 
-默认预览地址：`http://localhost:4173`
+---
 
-生成发布版本：
+## 🧭 Repository guide
 
-```bash
-npm run build
-```
+- `ai-simplify-skills`：集中维护可安装的 AI Skills。
+- 独立产品：一个成熟项目对应一个仓库，保留代码、演示与使用说明。
+- 本仓库：只负责 GitHub 账号首页介绍，不存放个人资料。
 
-## License
-
-[MIT](LICENSE)
+持续更新中。
